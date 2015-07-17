@@ -1,0 +1,23 @@
+doctype html
+html(lang="en-US" ng-app="MapD3")
+	head
+		meta(charset="utf-8")
+		meta(http-equiv="X-UA-Compatible", content="IE=edge")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+		title D3 Tester
+		link(rel="stylesheet" href="lib/build.css")
+		link(rel='stylesheet', href='css/main.css')
+		
+	body
+		nav.topheader.navbar.navbar-inverse.navbar-fixed-top.col-lg-12.row
+			.navbar-header.container-fluid
+				ul.nav.navbar-nav
+					li: a.navbar-link.navbar-right(ui-sref="start.map") Map
+		ui-view
+			.container
+
+	script(src='lib/build.js')
+
+	script(src='js/main.config.js')
+	script(src='js/directives.js')
+	script(src='js/map.controller.js')
