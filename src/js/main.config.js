@@ -7,8 +7,10 @@ angular
 
     $stateProvider
         .state('home', {
-          url: '/',
-          templateUrl: 'assets/landing.html'
+          url: '/home',
+          templateUrl: 'assets/landing.html',
+          controller: "MapController",
+          controllerAs: "MapController"
         })
 
       	.state('start', {
@@ -30,20 +32,18 @@ angular
 
   	})
 
-  	.factory('Brigade', function ($http) {
+  	.factory('Brigade', function ($http, $q) {
   		return {
-  			getGeoData: function(cb) {
-          $http
-          .get('http://codeforamerica.org/api/organizations.geojson')
-          .success(function (cb) {
-            console.log('Brigade Geo Success')
-          })
 
-
+  			getGeoData: function () {
+          return $http
+            .get('http://codeforamerica.org/api/organizations.geojson')
+            .then(
+              function (data) {
+                return data
+              })
         }
-	  			
 
-
-
+        
       }
     });
