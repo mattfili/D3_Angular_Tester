@@ -4,15 +4,20 @@ angular
 
 .controller('MapController', function (Brigade){
 	var vm = this;
-		
-	(function() { 
-		Brigade.getGeoData()
+
+	//- Load Brigade data onto MapController Scope with Brigade Factory
+	Brigade.getGeoData()
 		.then(
 			function(geoData) {
-				vm.data = geoData
-			}
-		)
-	})();	
+				vm.geoData = geoData.data.features
+		})
+	Brigade.getBrigadeData()
+		.then(
+			function(brigades) {
+				vm.brigadeData = brigades.data
+				vm.brigadeData.total = brigades.data.length
+			})
+	
 
 
 

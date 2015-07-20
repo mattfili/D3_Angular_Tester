@@ -32,7 +32,7 @@ angular
 
   	})
 
-  	.factory('Brigade', function ($http, $q) {
+  	.factory('Brigade', function ($http) {
   		return {
 
   			getGeoData: function () {
@@ -42,8 +42,17 @@ angular
               function (data) {
                 return data
               })
+        },
+
+        getBrigadeData: function () {
+          return $http
+            .get('https://cfn-brigadepulse.firebaseio.com/brigadeInfo.json')
+            .then(
+              function (data) {
+                return data
+              })
         }
 
-        
+
       }
     });
