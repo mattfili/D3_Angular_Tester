@@ -1,0 +1,740 @@
+.world {
+  fill: lightblue; }
+
+.borders {
+  fill: none;
+  stroke: white;
+  stoke-linejoin: round;
+  stroke-width: 2px; }
+
+.subunit .AGO {
+  fill: #e1f7d5; }
+
+.subunit .AIA {
+  fill: #e1f7d5; }
+
+.subunit .ALB {
+  fill: #e1f7d5; }
+
+.subunit .ALD {
+  fill: #e1f7d5; }
+
+.subunit .AND {
+  fill: #e1f7d5; }
+
+.subunit .ARE {
+  fill: #e1f7d5; }
+
+.subunit .ARG {
+  fill: #e1f7d5; }
+
+.subunit .ARM {
+  fill: #e1f7d5; }
+
+.subunit .ASM {
+  fill: #e1f7d5; }
+
+.subunit .ATA {
+  fill: #e1f7d5; }
+
+.subunit .ATF {
+  fill: #e1f7d5; }
+
+.subunit .ATG {
+  fill: #e1f7d5; }
+
+.subunit .AUS {
+  fill: #e1f7d5; }
+
+.subunit .AUT {
+  fill: #e1f7d5; }
+
+.subunit .AZE {
+  fill: #e1f7d5; }
+
+.subunit .BDI {
+  fill: #e1f7d5; }
+
+.subunit .BEL {
+  fill: #e1f7d5; }
+
+.subunit .BEN {
+  fill: #e1f7d5; }
+
+.subunit .BFA {
+  fill: #e1f7d5; }
+
+.subunit .BGD {
+  fill: #e1f7d5; }
+
+.subunit .BGR {
+  fill: #e1f7d5; }
+
+.subunit .BHR {
+  fill: #e1f7d5; }
+
+.subunit .BHS {
+  fill: #e1f7d5; }
+
+.subunit .BIH {
+  fill: #e1f7d5; }
+
+.subunit .BLM {
+  fill: #e1f7d5; }
+
+.subunit .BLR {
+  fill: #e1f7d5; }
+
+.subunit .BLZ {
+  fill: #e1f7d5; }
+
+.subunit .BMU {
+  fill: #e1f7d5; }
+
+.subunit .BOL {
+  fill: #e1f7d5; }
+
+.subunit .BRA {
+  fill: #e1f7d5; }
+
+.subunit .BRB {
+  fill: #e1f7d5; }
+
+.subunit .BRN {
+  fill: #e1f7d5; }
+
+.subunit .BTN {
+  fill: #e1f7d5; }
+
+.subunit .BWA {
+  fill: #e1f7d5; }
+
+.subunit .CAF {
+  fill: #e1f7d5; }
+
+.subunit .CAN {
+  fill: #e1f7d5; }
+
+.subunit .CHE {
+  fill: #e1f7d5; }
+
+.subunit .CHL {
+  fill: #e1f7d5; }
+
+.subunit .CHN {
+  fill: #e1f7d5; }
+
+.subunit .CIV {
+  fill: #e1f7d5; }
+
+.subunit .CMR {
+  fill: #e1f7d5; }
+
+.subunit .CNM {
+  fill: #e1f7d5; }
+
+.subunit .COD {
+  fill: #e1f7d5; }
+
+.subunit .COG {
+  fill: #e1f7d5; }
+
+.subunit .COK {
+  fill: #e1f7d5; }
+
+.subunit .COL {
+  fill: #e1f7d5; }
+
+.subunit .COM {
+  fill: #e1f7d5; }
+
+.subunit .CPV {
+  fill: #e1f7d5; }
+
+.subunit .CRI {
+  fill: #e1f7d5; }
+
+.subunit .CUB {
+  fill: #e1f7d5; }
+
+.subunit .CUW {
+  fill: #e1f7d5; }
+
+.subunit .CYM {
+  fill: #e1f7d5; }
+
+.subunit .CYN {
+  fill: #e1f7d5; }
+
+.subunit .CYP {
+  fill: #e1f7d5; }
+
+.subunit .CZE {
+  fill: #e1f7d5; }
+
+.subunit .DEU {
+  fill: #e1f7d5; }
+
+.subunit .DJI {
+  fill: #e1f7d5; }
+
+.subunit .DMA {
+  fill: #e1f7d5; }
+
+.subunit .DNK {
+  fill: #e1f7d5; }
+
+.subunit .DOM {
+  fill: #e1f7d5; }
+
+.subunit .DZA {
+  fill: #ffbdbd; }
+
+.subunit .ECU {
+  fill: #ffbdbd; }
+
+.subunit .EGY {
+  fill: #ffbdbd; }
+
+.subunit .ERI {
+  fill: #ffbdbd; }
+
+.subunit .ESB {
+  fill: #ffbdbd; }
+
+.subunit .ESP {
+  fill: #ffbdbd; }
+
+.subunit .EST {
+  fill: #ffbdbd; }
+
+.subunit .ETH {
+  fill: #ffbdbd; }
+
+.subunit .FIN {
+  fill: #ffbdbd; }
+
+.subunit .FJI {
+  fill: #ffbdbd; }
+
+.subunit .FLK {
+  fill: #ffbdbd; }
+
+.subunit .FRA {
+  fill: #ffbdbd; }
+
+.subunit .FRO {
+  fill: #ffbdbd; }
+
+.subunit .FSM {
+  fill: #ffbdbd; }
+
+.subunit .GAB {
+  fill: #ffbdbd; }
+
+.subunit .GBR {
+  fill: #ffbdbd; }
+
+.subunit .GEO {
+  fill: #ffbdbd; }
+
+.subunit .GGY {
+  fill: #ffbdbd; }
+
+.subunit .GHA {
+  fill: #ffbdbd; }
+
+.subunit .GIB {
+  fill: #ffbdbd; }
+
+.subunit .GIN {
+  fill: #ffbdbd; }
+
+.subunit .GMB {
+  fill: #ffbdbd; }
+
+.subunit .GNB {
+  fill: #ffbdbd; }
+
+.subunit .GNQ {
+  fill: #ffbdbd; }
+
+.subunit .GRC {
+  fill: #ffbdbd; }
+
+.subunit .GRD {
+  fill: #ffbdbd; }
+
+.subunit .GRL {
+  fill: #ffbdbd; }
+
+.subunit .GTM {
+  fill: #ffbdbd; }
+
+.subunit .GUM {
+  fill: #ffbdbd; }
+
+.subunit .GUY {
+  fill: #ffbdbd; }
+
+.subunit .HKG {
+  fill: #ffbdbd; }
+
+.subunit .HMD {
+  fill: #ffbdbd; }
+
+.subunit .HND {
+  fill: #ffbdbd; }
+
+.subunit .HRV {
+  fill: #ffbdbd; }
+
+.subunit .HTI {
+  fill: #ffbdbd; }
+
+.subunit .HUN {
+  fill: #ffbdbd; }
+
+.subunit .IDN {
+  fill: #ffbdbd; }
+
+.subunit .IMN {
+  fill: #ffbdbd; }
+
+.subunit .IND {
+  fill: #ffbdbd; }
+
+.subunit .IOA {
+  fill: #ffbdbd; }
+
+.subunit .IOT {
+  fill: #ffbdbd; }
+
+.subunit .IRL {
+  fill: #ffbdbd; }
+
+.subunit .IRN {
+  fill: #ffbdbd; }
+
+.subunit .IRQ {
+  fill: #ffbdbd; }
+
+.subunit .ISL {
+  fill: #ffbdbd; }
+
+.subunit .ISR {
+  fill: #ffbdbd; }
+
+.subunit .ITA {
+  fill: #ffbdbd; }
+
+.subunit .JAM {
+  fill: #ffbdbd; }
+
+.subunit .JEY {
+  fill: #ffbdbd; }
+
+.subunit .JOR {
+  fill: #ffbdbd; }
+
+.subunit .JPN {
+  fill: #ffbdbd; }
+
+.subunit .KAB {
+  fill: #ffbdbd; }
+
+.subunit .KAS {
+  fill: #ffbdbd; }
+
+.subunit .KAZ {
+  fill: #ffbdbd; }
+
+.subunit .KEN {
+  fill: #ffbdbd; }
+
+.subunit .KGZ {
+  fill: #ffbdbd; }
+
+.subunit .KHM {
+  fill: #ffbdbd; }
+
+.subunit .KIR {
+  fill: #ffbdbd; }
+
+.subunit .KNA {
+  fill: #ffbdbd; }
+
+.subunit .KOR {
+  fill: #ffbdbd; }
+
+.subunit .KOS {
+  fill: #ffbdbd; }
+
+.subunit .LAO {
+  fill: #c9c9ff; }
+
+.subunit .LBN {
+  fill: #c9c9ff; }
+
+.subunit .LBR {
+  fill: #c9c9ff; }
+
+.subunit .LBY {
+  fill: #c9c9ff; }
+
+.subunit .LCA {
+  fill: #c9c9ff; }
+
+.subunit .LIE {
+  fill: #c9c9ff; }
+
+.subunit .LKA {
+  fill: #c9c9ff; }
+
+.subunit .LSO {
+  fill: #c9c9ff; }
+
+.subunit .LTU {
+  fill: #c9c9ff; }
+
+.subunit .LUX {
+  fill: #c9c9ff; }
+
+.subunit .LVA {
+  fill: #c9c9ff; }
+
+.subunit .MAC {
+  fill: #c9c9ff; }
+
+.subunit .MAF {
+  fill: #c9c9ff; }
+
+.subunit .MAR {
+  fill: #c9c9ff; }
+
+.subunit .MCO {
+  fill: #c9c9ff; }
+
+.subunit .MDA {
+  fill: #c9c9ff; }
+
+.subunit .MDG {
+  fill: #c9c9ff; }
+
+.subunit .MDV {
+  fill: #c9c9ff; }
+
+.subunit .MEX {
+  fill: #c9c9ff; }
+
+.subunit .MHL {
+  fill: #c9c9ff; }
+
+.subunit .MKD {
+  fill: #c9c9ff; }
+
+.subunit .MLI {
+  fill: #c9c9ff; }
+
+.subunit .MLT {
+  fill: #c9c9ff; }
+
+.subunit .MMR {
+  fill: #c9c9ff; }
+
+.subunit .MNE {
+  fill: #c9c9ff; }
+
+.subunit .MNG {
+  fill: #c9c9ff; }
+
+.subunit .MNP {
+  fill: #c9c9ff; }
+
+.subunit .MOZ {
+  fill: #c9c9ff; }
+
+.subunit .MRT {
+  fill: #c9c9ff; }
+
+.subunit .MSR {
+  fill: #c9c9ff; }
+
+.subunit .MUS {
+  fill: #c9c9ff; }
+
+.subunit .MWI {
+  fill: #c9c9ff; }
+
+.subunit .MYS {
+  fill: #c9c9ff; }
+
+.subunit .NAM {
+  fill: #c9c9ff; }
+
+.subunit .NCL {
+  fill: #c9c9ff; }
+
+.subunit .NER {
+  fill: #c9c9ff; }
+
+.subunit .NFK {
+  fill: #c9c9ff; }
+
+.subunit .NGA {
+  fill: #c9c9ff; }
+
+.subunit .NIC {
+  fill: #c9c9ff; }
+
+.subunit .NIU {
+  fill: #c9c9ff; }
+
+.subunit .NLD {
+  fill: #c9c9ff; }
+
+.subunit .NOR {
+  fill: #c9c9ff; }
+
+.subunit .NPL {
+  fill: #c9c9ff; }
+
+.subunit .NRU {
+  fill: #c9c9ff; }
+
+.subunit .NZL {
+  fill: #c9c9ff; }
+
+.subunit .OMN {
+  fill: #c9c9ff; }
+
+.subunit .PAK {
+  fill: #c9c9ff; }
+
+.subunit .PAN {
+  fill: #c9c9ff; }
+
+.subunit .PCN {
+  fill: #c9c9ff; }
+
+.subunit .PER {
+  fill: #c9c9ff; }
+
+.subunit .PGA {
+  fill: #c9c9ff; }
+
+.subunit .PHL {
+  fill: #c9c9ff; }
+
+.subunit .PLW {
+  fill: #c9c9ff; }
+
+.subunit .PN1 {
+  fill: #c9c9ff; }
+
+.subunit .POL {
+  fill: #c9c9ff; }
+
+.subunit .PRI {
+  fill: #c9c9ff; }
+
+.subunit .PRK {
+  fill: #c9c9ff; }
+
+.subunit .PR1 {
+  fill: #c9c9ff; }
+
+.subunit .PRY {
+  fill: #c9c9ff; }
+
+.subunit .PSX {
+  fill: #c9c9ff; }
+
+.subunit .PYF {
+  fill: #c9c9ff; }
+
+.subunit .ROU {
+  fill: #ffffff; }
+
+.subunit .RUS {
+  fill: #ffffff; }
+
+.subunit .RWA {
+  fill: #ffffff; }
+
+.subunit .SAH {
+  fill: #ffffff; }
+
+.subunit .SAU {
+  fill: #ffffff; }
+
+.subunit .SDN {
+  fill: #ffffff; }
+
+.subunit .SDS {
+  fill: #ffffff; }
+
+.subunit .SEN {
+  fill: #ffffff; }
+
+.subunit .SGP {
+  fill: #ffffff; }
+
+.subunit .SGS {
+  fill: #ffffff; }
+
+.subunit .SHN {
+  fill: #ffffff; }
+
+.subunit .SLB {
+  fill: #ffffff; }
+
+.subunit .SLE {
+  fill: #ffffff; }
+
+.subunit .SLV {
+  fill: #ffffff; }
+
+.subunit .SMR {
+  fill: #ffffff; }
+
+.subunit .SOL {
+  fill: #ffffff; }
+
+.subunit .SOM {
+  fill: #ffffff; }
+
+.subunit .SPM {
+  fill: #ffffff; }
+
+.subunit .SRB {
+  fill: #ffffff; }
+
+.subunit .STP {
+  fill: #ffffff; }
+
+.subunit .SUR {
+  fill: #ffffff; }
+
+.subunit .SVK {
+  fill: #ffffff; }
+
+.subunit .SVN {
+  fill: #ffffff; }
+
+.subunit .SWE {
+  fill: #ffffff; }
+
+.subunit .SWZ {
+  fill: #ffffff; }
+
+.subunit .SXM {
+  fill: #ffffff; }
+
+.subunit .SYC {
+  fill: #ffffff; }
+
+.subunit .SYR {
+  fill: #ffffff; }
+
+.subunit .TCA {
+  fill: #ffffff; }
+
+.subunit .TCD {
+  fill: #ffffff; }
+
+.subunit .TGO {
+  fill: #ffffff; }
+
+.subunit .THA {
+  fill: #ffffff; }
+
+.subunit .TJK {
+  fill: #ffffff; }
+
+.subunit .TKM {
+  fill: #ffffff; }
+
+.subunit .TLS {
+  fill: #ffffff; }
+
+.subunit .TON {
+  fill: #ffffff; }
+
+.subunit .TTO {
+  fill: #ffffff; }
+
+.subunit .TUN {
+  fill: #ffffff; }
+
+.subunit .TUR {
+  fill: #ffffff; }
+
+.subunit .TUV {
+  fill: #ffffff; }
+
+.subunit .TWN {
+  fill: #ffffff; }
+
+.subunit .TZA {
+  fill: #ffffff; }
+
+.subunit .UGA {
+  fill: #ffffff; }
+
+.subunit .UKR {
+  fill: #ffffff; }
+
+.subunit .URY {
+  fill: #ffffff; }
+
+.subunit .USA {
+  fill: #ffffff; }
+
+.subunit .USG {
+  fill: #ffffff; }
+
+.subunit .UZB {
+  fill: #ffffff; }
+
+.subunit .VAT {
+  fill: #ffffff; }
+
+.subunit .VCT {
+  fill: #ffffff; }
+
+.subunit .VEN {
+  fill: #ffffff; }
+
+.subunit .VGB {
+  fill: #ffffff; }
+
+.subunit .VIR {
+  fill: #ffffff; }
+
+.subunit .VNM {
+  fill: #ffffff; }
+
+.subunit .VUT {
+  fill: #ffffff; }
+
+.subunit .WLF {
+  fill: #ffffff; }
+
+.subunit .WSB {
+  fill: #ffffff; }
+
+.subunit .WSM {
+  fill: #ffffff; }
+
+.subunit .YEM {
+  fill: #ffffff; }
+
+.subunit .ZAF {
+  fill: #ffffff; }
+
+.subunit .ZMB {
+  fill: #ffffff; }
+
+.subunit .ZWE {
+  fill: #ffffff; }
