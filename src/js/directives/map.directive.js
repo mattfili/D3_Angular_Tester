@@ -41,10 +41,11 @@ angular
 		link: function(scope, element, attrs) {
 			d3Serv.d3().then(function(d3) {
 
+				element = element[0]
 				var width = 1000;
 				var height = 700;
 
-				var svg = d3.select('#graph')
+				var svg = d3.select(element)
 							.append("svg")
 							.attr("width", width)
 							.attr("height", height)
@@ -60,19 +61,17 @@ angular
 	    		var worldMap = d3.map({
 	    		});
 
-	    		d3.json('world.json', function (err, world){
-	    			console.log(world.objects)
+	    		d3.json('world.json', function (err, globe){
 					var world = svg.append('g')
 	    				.attr('class', 'world')
 	    				.selectAll('g')
-	    				.data(topojson.feature(world, world.objects.subunits))
+	    				.data(topojson.feature(globe, globe.objects.subunits).features)
 	    				.enter()
 	    				.append("g")
+	    				console.log(globe.objects)
 
 		    			world.append('path')
 		    				.attr('d', path);
-		    				console.log('mapped')
-		    			console.log(world.objects)
 	    		})
 
 	    	})
