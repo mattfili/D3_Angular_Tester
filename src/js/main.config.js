@@ -1,8 +1,6 @@
 angular
 	.module('MapD3', ['ui.router', 'ui.bootstrap', 'firebase', 'd3'])
 	
-	.constant('FIRE_URL', 'https://stealadate.firebaseio.com/')
-
 	.config(function ($stateProvider, $urlRouterProvider) {
 
     $stateProvider

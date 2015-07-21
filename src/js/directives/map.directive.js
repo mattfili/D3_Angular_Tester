@@ -34,56 +34,73 @@ angular
 
 .module('MapD3')
 
-.directive('map', function (d3Serv) {
+.directive('map', function (d3Serv, $q) {
 	return {
 		restrict: 'E',
 		scope: {},
 		link: function(scope, element, attrs) {
 			d3Serv.d3().then(function(d3) {
 
-			var width = 1000;
-			var height = 700;
+				var width = 1000;
+				var height = 700;
 
-			var svg = d3.select(element[0])
-						.append("svg")
-						.attr("width", width)
-						attr("height", height)
+				var svg = d3.select('#graph')
+							.append("svg")
+							.attr("width", width)
+							.attr("height", height)
 
-			var projection = d3.geo.mercator()
-			    			.scale((width + 1) / 2 / Math.PI)
-    						.translate([width / 2, height / 2])
-    						.precision(.1)
+				var projection = d3.geo.mercator()
+				    			.scale((width + 1) / 2 / Math.PI)
+	    						.translate([width / 2, height / 2])
+	    						.precision(.1)
 
-    		var path = d3.geo.path()
-    					.projection(projection)
+	    		var path = d3.geo.path()
+	    					.projection(projection)
 
-    		var worldMap = d3.map({
-    		});
+	    		var worldMap = d3.map({
+	    		});
 
-    		queue()
-    			.defer(d3.json, 'mapdata/world.json')
-    			.await(function (err, world) {
-    				var world = svg.append('g')
-	    				.attr("class", 'states')
+	    		d3.json('world.json', function (err, world){
+	    			console.log(world.objects)
+					var world = svg.append('g')
+	    				.attr('class', 'world')
 	    				.selectAll('g')
-	    				.data(topojson.feature(world, world.objects.states))
+	    				.data(topojson.feature(world, world.objects.subunits))
 	    				.enter()
 	    				.append("g")
 
-	    			word.append('path')
-	    				.attr('d', path);
-    			})
+		    			world.append('path')
+		    				.attr('d', path);
+		    				console.log('mapped')
+		    			console.log(world.objects)
+	    		})
+
+	    	})
 
 
-			})
+    		// function asynchLoad(jsonFile) {
+    		// 	var deferred = $q.defer()
+    		// 	deferred.resolve(d3.json, jsonFile)
+    		// 	return deferred.promise;
+    		// }
+
+    		// var promise = asynchLoad('world.json')
+    		// 	promise.then(function (err, world) {
+    		// 		var world = svg.append('g')
+	    	// 			.attr('class', 'world')
+	    	// 			.selectAll('g')
+	    	// 			.data(topojson.feature(world, world.objects.states))
+	    	// 			.enter()
+	    	// 			.append("g")
+
+	    	// 		word.append('path')
+	    	// 			.attr('d', path);
+
+	    	// 		$scope.worlddata = world.objects
+    		// 	})
 
 
-		}
 
-
+		} 
 	}
-
-
-
-
 })
