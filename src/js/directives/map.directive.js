@@ -72,6 +72,12 @@ angular
 
 		    			world.append('path')
 		    				.attr('d', path);
+
+		    			world.append('path')
+		    			.datum(topojson.mesh(globe, globe.objects.countries, 
+		    				function(a,b) { return a !==b }))
+		    				.attr('class', 'borders')
+		    				.attr('d', path);
 	    		})
 
 	    	})
