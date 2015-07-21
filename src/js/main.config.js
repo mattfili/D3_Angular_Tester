@@ -4,26 +4,22 @@ angular
 	.config(function ($stateProvider, $urlRouterProvider) {
 
     $stateProvider
-        .state('home', {
-          url: '/home',
-          templateUrl: 'assets/landing.html',
-          controller: "MapController",
-          controllerAs: "MapController"
-        })
-
       	.state('start', {
           abstract: true,
           url: '/dash',
-          templateUrl: 'assets/dash.html'
+          templateUrl: 'assets/landing.html',
+          controller: "MapController",
+          controllerAs: "MapController"
       	})
 
         .state('start.dash', {
           views: {
             'mapdash': {
               url: '',
-              templateUrl: "",
-              controller: "",
-              controllerAs: ""
+            },
+            'sidenav': {
+              url: '',
+              templateUrl: 'assets/sidenav.html'
             }
           }
         })

@@ -20,3 +20,8 @@
   stroke: #fff;
   stoke-linejoin: round;
   stroke-width: .5px; }
+
+.sidebar.navContainer {
+  height: 701px;
+  width: 150px;
+  background-color: grey; }

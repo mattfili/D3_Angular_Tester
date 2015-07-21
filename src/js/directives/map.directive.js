@@ -2,7 +2,7 @@ angular
 
 .module('d3', [])
 
-//- assures d3 works onload and async
+//- Injects D3 as a Service
 .factory('d3Serv', ['$document', '$q', '$rootScope',
     function($document, $q, $rootScope) {
       var d = $q.defer();
@@ -76,40 +76,11 @@ angular
 				    .attr("class", "boundary")
 				    .attr("d", path);
 
-
-
-
-
-
-
-					
-					// var world = svg.append('g')
-	    // 				.selectAll('g')
-	    // 				.data(topojson.feature(globe, globe.objects.subunits).features)
-	    // 				.enter()
-	    // 				.append("g")
-
-	    // 				console.log(globe.objects)
-
-		   //  			world.append('path')
-		   //  				.attr('class', 'world')
-		   //  				.attr('d', path);
-
-		   //  			svg.append('path')
-		   //  				.datum(topojson.mesh(globe, globe.objects.subunits), function(a,b) {return a!==b})
-		   //  				.attr('d', path)
-		   //  				.attr('class', 'subunit-boundary')
-
 		    			
 	    		})
 
 	    	})
-		
-
-
-    		
-							
-						
-			}
+			
+		}
 	}
 })
