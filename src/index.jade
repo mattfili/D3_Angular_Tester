@@ -9,12 +9,13 @@ html(lang="en-US" ng-app="MapD3")
 		link(rel='stylesheet', href='assets/main.css')
 		
 	body
-		nav.topheader.navbar.navbar-inverse.navbar-fixed-top.col-lg-12.row
-			.navbar-header.container-fluid
-				ul.nav.navbar-nav
-					li: a.navbar-link.navbar-right(ui-sref="start.dash") Map
+		.container
+			nav.topheader.navbar.navbar-inverse.navbar-fixed-top.col-lg-12
+				.navbar-header.container-fluid
+					ul.nav.navbar-nav
+						li: a.navbar-link.navbar-right(ui-sref="start.dash") Map
 		ui-view
-			.container
+
 
 	script(src='lib/build.js')
 	script(src="http://d3js.org/topojson.v1.js" charset="utf-8")

@@ -1,3 +1,6 @@
+nav.topheader {
+  width: 100%; }
+
 .stroke {
   fill: none;
   stroke: #000;
@@ -35,10 +38,10 @@
 #sidebar-wrapper {
   z-index: 1000;
   position: fixed;
-  right: 250px;
-  width: 50px;
+  right: 70px;
+  width: 90px;
   height: 100%;
-  margin-right: -250px;
+  margin: auto;
   overflow-y: auto;
   background: #1A1A1A;
   -webkit-transition: all 0.5s ease;
@@ -55,11 +58,19 @@
   margin: 0;
   padding: 0;
   list-style: none; }
-
-.sidebar-nav ul {
-  padding-top: 35px; }
-
-.sidebar-nav li {
-  color: #8B8B8B;
-  text-indent: 20px;
-  line-height: 40px; }
+  .sidebar-nav #icon {
+    top: 30px;
+    left: 20px;
+    -webkit-transition: -webkit-transform ease 250ms;
+    transition: transform ease 250ms; }
+    .sidebar-nav #icon .rotate {
+      -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      transform: rotate(90deg); }
+  .sidebar-nav .listContent {
+    position: absolute;
+    top: 50px; }
+    .sidebar-nav .listContent li {
+      color: #8B8B8B;
+      text-indent: 20px;
+      line-height: 40px; }

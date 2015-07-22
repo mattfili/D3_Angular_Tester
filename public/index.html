@@ -9,16 +9,16 @@
     <link rel="stylesheet" href="assets/main.css">
   </head>
   <body>
-    <nav class="topheader navbar navbar-inverse navbar-fixed-top col-lg-12 row">
-      <div class="navbar-header container-fluid">
-        <ul class="nav navbar-nav">
-          <li><a ui-sref="start.dash" class="navbar-link navbar-right">Map</a></li>
-        </ul>
-      </div>
-    </nav>
-    <ui-view>
-      <div class="container"></div>
-    </ui-view>
+    <div class="container">
+      <nav class="topheader navbar navbar-inverse navbar-fixed-top col-lg-12">
+        <div class="navbar-header container-fluid">
+          <ul class="nav navbar-nav">
+            <li><a ui-sref="start.dash" class="navbar-link navbar-right">Map</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <ui-view></ui-view>
   </body>
   <script src="lib/build.js"></script>
   <script src="http://d3js.org/topojson.v1.js" charset="utf-8"></script>
