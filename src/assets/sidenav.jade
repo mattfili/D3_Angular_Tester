@@ -1,4 +1,7 @@
-.navContainer.navbar-right
-	ul.list-group
-		li.list-group-item-heading Hey
-		li.list-group-item ho
+#sidebar-wrapper(ng-class="{'toggled': engage, '': !engage}")
+	ul.sidebar-nav 
+		li: span(type="button" class="glyphicon glyphicon-align-justify" ng-model='engage' ng-init="engage=false" ng-click="engage = !engage") 
+		.listContent(ng-show="engage")
+			li Hey
+			li sup sup 
+			li oh yea maps are sweet

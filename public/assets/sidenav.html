@@ -1,7 +1,11 @@
 
-<div class="navContainer navbar-right">
-  <ul class="list-group">
-    <li class="list-group-item-heading">Hey</li>
-    <li class="list-group-item">ho</li>
+<div id="sidebar-wrapper" ng-class="{'toggled': engage, '': !engage}">
+  <ul class="sidebar-nav"> 
+    <li><span type="button" ng-model="engage" ng-init="engage=false" ng-click="engage = !engage" class="glyphicon glyphicon-align-justify"> </span></li>
+    <div ng-show="engage" class="listContent">
+      <li>Hey</li>
+      <li>sup sup </li>
+      <li>oh yea maps are sweet</li>
+    </div>
   </ul>
 </div>

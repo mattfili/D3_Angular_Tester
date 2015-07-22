@@ -42,7 +42,7 @@ angular
 			d3Serv.d3().then(function(d3) {
 
 				element = element[0]
-				var width = 1000;
+				var width = 900;
 				var height = 700;
 				var color = d3.scale.category20()
 

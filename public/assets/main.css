@@ -21,7 +21,45 @@
   stoke-linejoin: round;
   stroke-width: .5px; }
 
-.sidebar.navContainer {
-  height: 701px;
-  width: 150px;
-  background-color: grey; }
+#wrapper {
+  padding-left: 0;
+  padding-top: 38px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+#page-content-wrapper {
+  width: 100%;
+  position: absolute;
+  padding: 15px; }
+
+#sidebar-wrapper {
+  z-index: 1000;
+  position: fixed;
+  right: 250px;
+  width: 50px;
+  height: 100%;
+  margin-right: -250px;
+  overflow-y: auto;
+  background: #1A1A1A;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+
+#sidebar-wrapper.toggled {
+  width: 350px; }
+
+.sidebar-nav {
+  z-index: 10000;
+  position: absolute;
+  top: 0;
+  width: 250px;
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.sidebar-nav ul {
+  padding-top: 35px; }
+
+.sidebar-nav li {
+  color: #8B8B8B;
+  text-indent: 20px;
+  line-height: 40px; }

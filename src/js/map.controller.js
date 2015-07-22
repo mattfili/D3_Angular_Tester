@@ -2,8 +2,9 @@ angular
 
 .module('MapD3')
 
-.controller('MapController', function (Brigade){
+.controller('MapController', function (Brigade, $scope){
 	var vm = this;
+
 
 	//- Load Brigade data onto MapController Scope with Brigade Factory
 	Brigade.getGeoData()
